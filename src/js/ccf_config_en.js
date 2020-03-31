@@ -1,4 +1,4 @@
-var server = 'http://localhost:8905/';
+var server = 'https://esta-ed.sd.di.huc.knaw.nl/';
 
 var ccfOptions = {
     uploadButton: {
