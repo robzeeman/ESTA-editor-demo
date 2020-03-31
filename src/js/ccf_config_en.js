@@ -1,4 +1,4 @@
-var server = 'http://localhost:8080/';
+var server = 'http://localhost:8090/';
 
 var ccfOptions = {
     uploadButton: {
