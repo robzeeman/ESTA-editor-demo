@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="420e4ad3-3d93-4d8c-b985-23461937f5c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/config/common.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/common.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/ccf_config_en.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/ccf_config_en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/editor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -46,7 +47,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585646487095</updated>
-      <workItem from="1585646494117" duration="2379000" />
+      <workItem from="1585646494117" duration="3860000" />
+      <workItem from="1585737341474" duration="1224000" />
+      <workItem from="1585752509831" duration="9000" />
+      <workItem from="1586172264782" duration="1878000" />
     </task>
     <servers />
   </component>
@@ -57,9 +61,17 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="449" y="249" width="781" height="574" key="find.popup" timestamp="1585651290970">
+    <state x="640" y="453" key="NewPhpFileDialog" timestamp="1586173314648">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="449" y="249" width="781" height="574" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1585651290970" />
+    <state x="640" y="453" key="NewPhpFileDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1586173314648" />
+    <state x="229" y="88" key="SettingsEditor" timestamp="1585741385028">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="229" y="88" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1585741385028" />
+    <state x="449" y="249" width="781" height="574" key="find.popup" timestamp="1585653987898">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="449" y="249" width="781" height="574" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1585653987898" />
   </component>
 </project>

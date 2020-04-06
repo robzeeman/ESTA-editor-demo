@@ -15,7 +15,7 @@
     <body>
         <div id="wrapper">
         <div id="header">
-            CLARIAH CMDI Forms
+            ESTA Editor (demo)
         </div>
         <div id="user">Rob Zeeman</div>
         <div id="homeBtn"></div>
