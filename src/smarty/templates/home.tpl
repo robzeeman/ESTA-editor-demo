@@ -3,6 +3,7 @@
     <h2>Voyage 284: sub voyages</h2>
     <table id="resultTable">
         <tr>
+            <th>Code</th>
             <th>Departure date</th>
             <th>Vessel</th>
             <th>Captain</th>
@@ -12,6 +13,7 @@
             <th>+</th>
         </tr>
         <tr class="even">
+            <td id="V1" class="sea" onclick="set_candidate(this)">V1</td>
             <td>??/??/1735</td>
             <td>The Black Rock</td>
             <td>Captain Hook</td>
@@ -22,6 +24,7 @@
             </td>
         </tr>
         <tr class="even">
+            <td id="V2" class="sea" onclick="set_candidate(this)">V2</td>
             <td>??/??/1735</td>
             <td>Ye Olde Barke</td>
             <td>John Davies</td>
@@ -32,6 +35,7 @@
             </td>
         </tr>
         <tr class="even">
+            <td id="V3" class="sea" onclick="set_candidate(this)">V3</td>
             <td>??/??/1735</td>
             <td>The Bleak Housewive</td>
             <td>David Jefferies</td>
@@ -42,6 +46,7 @@
             </td>
         </tr>
         <tr class="even">
+            <td id="V4" class="land" onclick="set_candidate(this)">V4</td>
             <td>??/??/1735</td>
             <td>De Gulden Draeck</td>
             <td>Harrie Smit</td>
@@ -52,6 +57,7 @@
             </td>
         </tr>
         <tr class="even">
+            <td id="V5" class="sea" onclick="set_candidate(this)">V5</td>
             <td>??/??/1735</td>
             <td>Molly</td>
             <td>Jeff Bevis</td>
@@ -62,12 +68,42 @@
             </td>
         </tr>
     </table>
-    <!-- Bootstrap & Core Scripts -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
-    <script src="https://getbootstrap.com/dist/js/bootstrap.min.js"></script>
-
-    <script type="text/javascript">
-        $('tbody').sortable();
-    </script>
+    <br/>
+    <h2>Dependencies</h2>
+    <table id="dependencyTable">
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td onclick="fill_cell(this)"></td>
+            <td onclick="fill_cell(this)"></td>
+            <td onclick="fill_cell(this)"></td>
+            <td onclick="fill_cell(this)"></td>
+        </tr>
+        <tr>
+            <td onclick="fill_cell(this)"></td>
+            <td onclick="fill_cell(this)"></td>
+            <td onclick="fill_cell(this)"></td>
+            <td onclick="fill_cell(this)"></td>
+        </tr>
+        <tr>
+            <td onclick="fill_cell(this)"></td>
+            <td onclick="fill_cell(this)"></td>
+            <td onclick="fill_cell(this)"></td>
+            <td onclick="fill_cell(this)"></td>
+        </tr>
+        <tr>
+            <td onclick="fill_cell(this)"></td>
+            <td onclick="fill_cell(this)"></td>
+            <td onclick="fill_cell(this)"></td>
+            <td onclick="fill_cell(this)"></td>
+        </tr>
+    </table>
+    <div id="dashBoard">
+        <input type="button" value="Add row" onclick="addRow()"/>
+        <input type="button" value="Add column" onclick="addCol()"/>
+    </div>
 {/block}
